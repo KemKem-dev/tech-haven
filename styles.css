@@ -503,8 +503,9 @@ footer {
         grid-template-columns: 1fr;
     }
     .box {
-        margin-left: 1rem;
-        margin-right: 1rem;
+        margin-left: 2.5rem;
+        margin-right: 2.5rem;
+        margin-top: 20px;
     }
     .box i {
         font-size: 60px;
