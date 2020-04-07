@@ -510,6 +510,8 @@ footer {
     }
     .button {
         margin-top: 1rem;
+        margin-bottom: 1rem;
+        background: #ffffff;
     }
     .btn {
         display: inline-block;
