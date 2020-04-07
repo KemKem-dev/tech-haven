@@ -556,6 +556,7 @@ footer {
     .form-wrapper .quote input,
     .form-wrapper .quote textarea {
         width: 100%;
+        height: 30px;
         padding: 20px;
         font-size: 1.5rem;
         margin-top: 10px;
