@@ -508,6 +508,9 @@ footer {
         font-size: 2.2rem;
         padding: 1.3rem;
     }
+    .button {
+        margin-top: 1rem;
+    }
     .btn {
         display: inline-block;
         align-self: center;
@@ -521,7 +524,10 @@ footer {
         margin-top: 20px;
     }
     .box i {
-        font-size: 70px;
+        font-size: 75px;
+    }
+    .box p {
+        font-size: 2.2rem;
     }
     .about,
     .about-wrapper h2 {
