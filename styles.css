@@ -142,6 +142,7 @@ a:hover {
     text-align: center;
     font-size: 1.6rem;
     margin-bottom: 10px;
+    color: #333;
 }
 
 .wrapper p {
@@ -415,6 +416,7 @@ footer {
     font-family: 'Martel';
     font-style: italic;
     padding: 1.5rem;
+    margin-top: 10px;
     color: #ffffff;
 }
 
