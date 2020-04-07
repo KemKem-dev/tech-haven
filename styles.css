@@ -562,6 +562,10 @@ footer {
         font-size: 1.5rem;
         margin-top: 10px;
     }
+    .form-wrapper input[type="email"],
+    .form-wrapper input[type="text"] {
+        height: 40px;
+    }
     footer {
         width: 100%;
     }
