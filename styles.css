@@ -168,7 +168,7 @@ a:hover {
     background: #062863;
     color: #fff;
     cursor: pointer;
-    transition: all 2s ease-in-out;
+    transition: all 2s ease;
 }
 
 .box h3 {
@@ -186,6 +186,9 @@ a:hover {
     height: 50px;
     color: #000;
     font-size: 50px;
+}
+.box i:hover {
+    color: #fff;
 }
 
 .button {
