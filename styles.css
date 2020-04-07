@@ -27,6 +27,7 @@ nav .logo {
     line-height: 80px;
     padding: 0 100px;
     font-weight: bold;
+    font-family: 'Neuton';
 }
 
 nav ul {
@@ -43,6 +44,7 @@ nav ul li {
 nav ul li a {
     color: #ffffff;
     font-size: 1.4rem;
+    font-family: 'Neuton';
     padding: 7px 13px;
     border-radius: 4px;
     text-transform: uppercase;
@@ -54,7 +56,7 @@ a:hover {
     transition: .5s
 }
 
-.checkbtn svg {
+.checkbtn i {
     font-size: 38px;
     color: white;
     float: right;
@@ -118,6 +120,8 @@ a:hover {
 .btn-full:hover {
     background-color: white;
     color: #000;
+    border: none;
+    transition: all 2s ease-out;
 }
 
 .btn-nav {
@@ -129,6 +133,8 @@ a:hover {
 .btn-nav:hover {
     background-color: #1b9bff;
     color: #fff;
+    border: none;
+    transition: all 2s ease-out;
 }
 
 .wrapper {
@@ -145,7 +151,7 @@ a:hover {
 
 .boxes {
     display: grid;
-    grid-gap: 20px;
+    grid-gap: 10px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-top: 20px;
 }
@@ -154,12 +160,15 @@ a:hover {
     background: #1b9bff;
     text-align: center;
     padding: 1.5rem 2rem;
+    margin-left: 0.6rem;
+    margin-right: 0.6rem;
 }
 
 .box:hover {
-    background: aqua;
+    background: #062863;
+    color: #fff;
     cursor: pointer;
-    transition: all.5s ease;
+    transition: all 2s ease-in-out;
 }
 
 .box h3 {
@@ -169,11 +178,14 @@ a:hover {
 .box p {
     font-size: 1.1rem;
     margin-bottom: 20px;
+    font-family: 'Martel';
 }
 
-.box svg {
+.box i {
     width: 50px;
     height: 50px;
+    color: #000;
+    font-size: 50px;
 }
 
 .button {
@@ -228,11 +240,13 @@ img {
     text-align: center;
 }
 
-.service-content svg {
+.service-content i {
     width: 50px;
     height: 50px;
     align-self: center;
     margin-top: 10px;
+    color: #333;
+    font-size: 2.5rem;
 }
 
 .service-content p {
@@ -262,7 +276,7 @@ img {
 }
 
 .main-service:hover {
-    background: url('handss.jpg');
+    background: url('offfice\ hands.jpg');
     color: antiquewhite;
     transition: all .5s ease;
     transform: scale(1.1);
@@ -383,9 +397,10 @@ img {
     color: antiquewhite;
 }
 
-.link-wrapper svg {
+.link-wrapper i {
     width: 40px;
     height: 40px;
+    font-size: 45px;
     margin-top: 10px;
     cursor: pointer;
 }
@@ -394,6 +409,7 @@ footer {
     background: #0082e6;
     text-align: center;
     font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
     padding: 1.5rem;
     color: #ffffff;
 }
@@ -411,7 +427,8 @@ footer {
     border-radius: 50%;
 }
 
-.arrow svg {
+.arrow i {
+    color: #fff;
     width: 30px;
     height: 30px;
     z-index: 1;
@@ -423,16 +440,25 @@ footer {
         padding-left: 50px;
     }
     nav ul li a {
-        font-size: 18px;
+        font-size: 25px;
     }
 }
 
-@media (max-width: 858px) {
-    .checkbtn svg {
+@media (max-width: 980px) {
+    nav {
+        height: 96px;
+    }
+    nav .logo {
+        margin-top: 20px;
+        font-size: 36px;
+    }
+    .checkbtn i {
         display: block;
         width: 50px;
         height: 50px;
-        margin-top: 20px;
+        font-size: 2.6rem;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
     ul {
         position: fixed;
@@ -447,10 +473,10 @@ footer {
     nav ul li {
         display: block;
         margin: 50px 0;
-        line-height: 30px;
+        line-height: 70px;
     }
     nav ul li a {
-        font-size: 20px;
+        font-size: 38px;
     }
     a.active,
     a:hover {
@@ -474,6 +500,20 @@ footer {
     .boxes {
         grid-template-columns: 1fr;
     }
+    .box {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .box i {
+        font-size: 60px;
+    }
+    .about,
+    .about-wrapper h2 {
+        font-size: 2rem;
+    }
+    .about-wrapper p {
+        padding: 10px;
+    }
     .about-content {
         display: flex;
         flex-direction: column;
@@ -490,6 +530,11 @@ footer {
         display: inline-block;
         align-self: center;
         text-align: center;
+        font-size: 2.1rem;
+    }
+    .btn-full,
+    .btn-nav {
+        font-size: 1.8rem;
     }
     .contact-wrapper {
         display: block;
@@ -503,6 +548,16 @@ footer {
         flex-direction: column;
     }
     .form-wrapper textarea {
-        display: inline-block;
+        display: block;
+        align-self: center;
+        justify-self: center;
+        margin-left: 275px;
+    }
+    .form-wrapper .quote input,
+    .form-wrapper .quote textarea {
+        width: 100%;
+        padding: 20px;
+        font-size: 1.5rem;
+        margin-top: 10px;
     }
 }
