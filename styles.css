@@ -652,13 +652,12 @@ footer {
         flex-direction: column;
     }
     .form-wrapper textarea {
-        width: 100%;
+       width: 100%;
         padding: 30px;
-        display: inline-block;
+        display: block;
         font-size: 1.6rem;
         align-self: center;
         justify-self: center;
-        margin-left: 80px;
     }
     .form-wrapper .quote input,
     .form-wrapper .quote textarea {
@@ -670,7 +669,7 @@ footer {
     }
     .form-wrapper input[type="email"],
     .form-wrapper input[type="text"] {
-        width: 90%;
+        width: 70%;
         padding: 40px;
         height: 40px;
         margin-left: 2rem;
