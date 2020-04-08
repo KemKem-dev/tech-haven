@@ -209,7 +209,8 @@ a:hover {
 
 .about {
     text-align: center;
-    font-size: 1.8rem;
+    text-decoration: underline;
+    font-size: 2rem;
     padding: 20px;
 }
 
@@ -228,6 +229,28 @@ a:hover {
 img {
     width: 100%;
     height: auto;
+}
+
+.service-content {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    color: #333;
+}
+
+.service-content p {
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 10px;
+}
+
+.service-content h1 {
+    color: #333;
+    font-size: 2rem;
+    text-decoration: underline;
+    font-family: 'Neuton';
+    text-align: center;
+    padding: 20px;
 }
 
 .container-service {
