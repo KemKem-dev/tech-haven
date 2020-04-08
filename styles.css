@@ -657,21 +657,27 @@ footer {
     }
     .container-service .boxx:nth-child(1):hover {
         background: #999;
+        transition: all 2s ease;
     }
     .container-service .boxx:nth-child(2):hover {
         background: #1b9;
+        transition: all 2s ease;
     }
     .container-service .boxx:nth-child(3):hover {
         background: #0082e6;
+        transition: all 2s ease;
     }
     .container-service .boxx:nth-child(4):hover {
         background: #1b9bff;
+        transition: all 2s ease;
     }
     .container-service .boxx:nth-child(5):hover {
         background: #ff1493;
+        transition: all 2s ease;
     }
     .container-service .boxx:nth-child(6):hover {
         background: #333;
+        transition: all 2s ease;
     }
     .btn-primary,
     .btn-purchase {
@@ -702,6 +708,8 @@ footer {
         font-size: 1.4rem;
         align-self: center;
         justify-self: center;
+         margin-left: 50px;
+         margin-right: 70px;
     }
     .form-wrapper .quote input,
     .form-wrapper .quote textarea {
@@ -713,9 +721,10 @@ footer {
     }
     .form-wrapper input[type="email"],
     .form-wrapper input[type="text"] {
-        width: 80%;
+        width: 90%;
         padding: 40px;
         height: 40px;
+        border-radius: 10px;
         margin-left: 2rem;
         margin-right: 2rem;
         font-size: 1.7rem;
