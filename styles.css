@@ -613,7 +613,7 @@ footer {
         font-size: 75px;
     }
     .box h3 {
-        font-size: 2.6rem;
+        font-size: 2.4rem;
     }
     .box p {
         font-size: 2rem;
@@ -653,7 +653,25 @@ footer {
         font-size: 2.4rem;
     }
     .boxx .content p {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
+    }
+    .container-service .boxx:nth-child(1):hover .icon {
+        background: #999;
+    }
+    .container-service .boxx:nth-child(2):hover .icon {
+        background: #1b9;
+    }
+    .container-service .boxx:nth-child(3):hover .icon {
+        background: #0082e6;
+    }
+    .container-service .boxx:nth-child(4):hover .icon {
+        background: #1b9bff;
+    }
+    .container-service .boxx:nth-child(5):hover .icon {
+        background: #ff1493;
+    }
+    .container-service .boxx:nth-child(6):hover .icon {
+        background: #333;
     }
     .btn-primary,
     .btn-purchase {
