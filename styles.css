@@ -496,7 +496,7 @@ footer {
     z-index: 1;
 }
 
-@media (max-width: 952px) {
+@media (max-width: 980px) {
     nav .logo {
         font-size: 30px;
         padding-left: 50px;
@@ -506,7 +506,7 @@ footer {
     }
 }
 
-@media (max-width: 980px) {
+@media (max-width: 1080px) {
     nav {
         height: 100px;
         width: 100%;
@@ -670,7 +670,7 @@ footer {
     }
     .form-wrapper input[type="email"],
     .form-wrapper input[type="text"] {
-        width: 100%;
+        width: 90%;
         padding: 40px;
         height: 40px;
         margin-left: 2rem;
