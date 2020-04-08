@@ -165,7 +165,7 @@ a:hover {
 }
 
 .box:hover {
-    background: #062863;
+    background: #0082e6;
     color: #fff;
     cursor: pointer;
     transition: all 2s ease;
@@ -191,8 +191,6 @@ a:hover {
 .box i:hover {
     color: #fff;
 }
-
-
 
 .button:hover {
     color: #fff;
@@ -491,7 +489,7 @@ img {
 footer {
     background: #0082e6;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     font-family: 'Martel';
     font-style: italic;
     padding: 1.5rem;
@@ -585,7 +583,7 @@ footer {
         padding: 1.3rem;
     }
     .wrapper p {
-        font-size: 2.2rem;
+        font-size: 2rem;
         padding: 1.3rem;
     }
     .button {
@@ -602,10 +600,14 @@ footer {
         grid-template-columns: 1fr;
     }
     .box {
-        background: aliceblue;
-        margin-left: 1.5rem;
-        margin-right: 1.5rem;
-        margin-top: 20px;
+        padding: 40px;
+        background: #fff;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
+        border-radius: 4px;
+        margin: 20px;
+        box-sizing: border-box;
+        text-align: center;
+        overflow: hidden;
     }
     .box i {
         font-size: 75px;
@@ -648,7 +650,7 @@ footer {
         height: 120px;
     }
     .boxx h3 {
-        font-size: 2.6rem;
+        font-size: 2.4rem;
     }
     .boxx .content p {
         font-size: 1.5rem;
@@ -679,7 +681,7 @@ footer {
        width: 100%;
         padding: 30px;
         display: block;
-        font-size: 1.6rem;
+        font-size: 1.4rem;
         align-self: center;
         justify-self: center;
     }
@@ -688,7 +690,7 @@ footer {
         width: 100%;
         height: 30px;
         padding: 20px;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         margin-top: 10px;
     }
     .form-wrapper input[type="email"],
