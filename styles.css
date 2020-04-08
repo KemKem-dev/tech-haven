@@ -669,7 +669,7 @@ footer {
     }
     .form-wrapper input[type="email"],
     .form-wrapper input[type="text"] {
-        width: 70%;
+        width: 80%;
         padding: 40px;
         height: 40px;
         margin-left: 2rem;
